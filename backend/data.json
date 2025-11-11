@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Getting started with Node.js",
+        "content": "This post covers the basics of setting up a Node.js project, installing dependencies, and running a simple server.",
+        "category": "tutorial",
+        "author": "A. Developer",
+        "image": "https://placekitten.com/800/400",
+        "createdAt": "2025-11-01T10:00:00.000Z",
+        "updatedAt": "2025-11-01T10:00:00.000Z"
+    },
+    {
+        "title": "CSS Grid vs Flexbox",
+        "content": "A quick comparison of CSS Grid and Flexbox with examples and use-cases for responsive layouts.",
+        "category": "frontend",
+        "author": "Front End Team",
+        "image": "https://placekitten.com/801/400",
+        "createdAt": "2025-10-20T14:30:00.000Z",
+        "updatedAt": "2025-10-21T09:15:00.000Z"
+    },
+    {
+        "title": "Deploying to Heroku (demo)",
+        "content": "Step-by-step guide to deploy a simple Express app to Heroku, including Procfile and environment variables.",
+        "category": "devops",
+        "author": "Ops Lead",
+        "image": "https://placekitten.com/802/400",
+        "createdAt": "2025-09-05T08:45:00.000Z",
+        "updatedAt": "2025-09-05T08:45:00.000Z"
+    },
+    {
+        "title": "Writing clean unit tests",
+        "content": "Tips and patterns for writing maintainable unit tests using Jest and mocking strategies.",
+        "category": "testing",
+        "author": "QA Team",
+        "image": "https://placekitten.com/803/400",
+        "createdAt": "2025-08-12T12:00:00.000Z",
+        "updatedAt": "2025-08-12T12:00:00.000Z"
+    },
+    {
+        "title": "Database schema design basics",
+        "content": "Fundamentals of designing a simple, efficient schema for small to medium sized applications.",
+        "category": "database",
+        "author": "DB Architect",
+        "image": "https://placekitten.com/804/400",
+        "createdAt": "2025-07-30T16:20:00.000Z",
+        "updatedAt": "2025-07-30T16:20:00.000Z"
+    }
+]
