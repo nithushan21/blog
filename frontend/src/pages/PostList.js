@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import Post from "../components/Post";
 import axios from "axios";  
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+// import Header from "../components/Header";
+// import Footer from "../components/Footer";
 
 export default function PostList() {
     const [posts, setPosts] = useState([])
@@ -17,7 +17,7 @@ export default function PostList() {
 
 
     return <>
-        <Header/>
+      {/* <Header/>   */}
 
         <main>
             <div class="container mt-4">
@@ -57,6 +57,6 @@ export default function PostList() {
             </div>
         </main>
 
-        <Footer/>
+        {/* <Footer/> */}
     </>
 }
