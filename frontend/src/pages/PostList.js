@@ -20,11 +20,11 @@ export default function PostList() {
       {/* <Header/>   */}
 
         <main>
-            <div class="container mt-4">
-                <div class="row">
+            <div className="container mt-4">
+                <div className="row">
 
-                    <div class="col-lg-8">
-                        <h1 class="mb-4">Latest Posts</h1>
+                    <div className="col-lg-8">
+                        <h1 className="mb-4">Latest Posts</h1>
                     {
                         posts.length > 0 ? posts.map((post) => <Post post={post}/>) : <h4>No posts available.</h4>
                     }
@@ -34,21 +34,21 @@ export default function PostList() {
 
                     </div>
 
-                    <div class="col-lg-4">
-                        <div class="card mb-4">
-                            <div class="card-body">
-                                <h5 class="card-title">About Me</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div classNameName="col-lg-4">
+                        <div classNameName="card mb-4">
+                            <div classNameName="card-body">
+                                <h5 classNameName="card-title">About Me</h5>
+                                <p classNameName="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                         </div>
 
-                        <div class="card mb-4">
-                            <div class="card-body">
-                                <h5 class="card-title">Categories</h5>
-                                <ul class="list-group">
-                                    <li class="list-group-item"><a href="#" class="text-black">Category 1</a></li>
-                                    <li class="list-group-item"><a href="#" class="text-black">Category 2</a></li>
-                                    <li class="list-group-item"><a href="#" class="text-black">Category 3</a></li>
+                        <div classNameName="card mb-4">
+                            <div classNameName="card-body">
+                                <h5 classNameName="card-title">Categories</h5>
+                                <ul classNameName="list-group">
+                                    <li classNameName="list-group-item"><a href="#" classNameName="text-black">Category 1</a></li>
+                                    <li classNameName="list-group-item"><a href="#" classNameName="text-black">Category 2</a></li>
+                                    <li classNameName="list-group-item"><a href="#" classNameName="text-black">Category 3</a></li>
                                 </ul>
                             </div>
                         </div>

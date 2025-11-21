@@ -21,7 +21,7 @@ export default function PostDetail(){
     }, [])
         
     if (!post) {
-        return <div class="container my-4">
+        return <div className="container my-4">
             <h2>Loading...</h2>
         </div>
     }
@@ -33,14 +33,14 @@ export default function PostDetail(){
     }).format(new Date(post.createdAt));
 
 
-    return <main class="container my-4">
-        <div class="row">
-            <article class="col-lg-8">
-                <h2 class="blog-post-title">{post.title}</h2>
-                <p class="blog-post-meta">{formattedDate} by <a href="#">{post.author}</a></p>
+    return <main className="container my-4">
+        <div className="row">
+            <article className="col-lg-8">
+                <h2 className="blog-post-title">{post.title}</h2>
+                <p className="blog-post-meta">{formattedDate} by <a href="#">{post.author}</a></p>
 
-                <img class="mb-3 img-fluid" src={post.image} alt="" />
-                <div class="blog-post-content">
+                <img className="mb-3 img-fluid" src={post.image} alt="" />
+                <div className="blog-post-content">
                     <p>{post.content}</p>
                 </div>
             </article>
