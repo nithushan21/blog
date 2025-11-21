@@ -34,21 +34,21 @@ export default function PostList() {
 
                     </div>
 
-                    <div classNameName="col-lg-4">
-                        <div classNameName="card mb-4">
-                            <div classNameName="card-body">
-                                <h5 classNameName="card-title">About Me</h5>
-                                <p classNameName="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div className="col-lg-4">
+                        <div className="card mb-4">
+                            <div className="card-body">
+                                <h5 className="card-title">About Me</h5>
+                                <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                         </div>
 
-                        <div classNameName="card mb-4">
-                            <div classNameName="card-body">
-                                <h5 classNameName="card-title">Categories</h5>
-                                <ul classNameName="list-group">
-                                    <li classNameName="list-group-item"><a href="#" classNameName="text-black">Category 1</a></li>
-                                    <li classNameName="list-group-item"><a href="#" classNameName="text-black">Category 2</a></li>
-                                    <li classNameName="list-group-item"><a href="#" classNameName="text-black">Category 3</a></li>
+                        <div className="card mb-4">
+                            <div className="card-body">
+                                <h5 className="card-title">Categories</h5>
+                                <ul className="list-group">
+                                    <li className="list-group-item"><a href="#" className="text-black">Category 1</a></li>
+                                    <li className="list-group-item"><a href="#" className="text-black">Category 2</a></li>
+                                    <li className="list-group-item"><a href="#" className="text-black">Category 3</a></li>
                                 </ul>
                             </div>
                         </div>
