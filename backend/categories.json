@@ -1,0 +1,28 @@
+[
+    {
+      "name": "tutorial",
+      "slug": "Tutorial",
+      "description": "Posts related to programming languages, concepts, and tools used for building software applications."
+    },
+    {
+      "name": "frontend",
+      "slug": "Frontend",
+      "description": "Posts about databases, including NoSQL, relational databases, and other data management technologies."
+    },
+    {
+      "name": "devops",
+      "slug": "Devops",
+      "description": "Posts on various web application frameworks, their usage, and best practices."
+    },
+    {
+      "name": "testing",
+      "slug": "Testing",
+      "description": "Posts discussing RESTful APIs, their design, and how they facilitate communication between systems."
+    },
+    {
+      "name": "database",
+      "slug": "Database",
+      "description": "Posts focusing on JavaScript language features, updates, and best practices."
+    }
+  ]
+  
